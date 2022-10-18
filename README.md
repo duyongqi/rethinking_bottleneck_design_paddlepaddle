@@ -53,7 +53,7 @@ repo用到的数据集是imagenet数据集的验证集，具体参见：
 | ---------------  | --------------- | -------------- | -------------- |
 
 ![image](https://github.com/duyongqi/rethinking_bottleneck_design_paddlepaddle/blob/master/fig1.png)
-![image](https://github.com/duyongqi/rethinking_bottleneck_design_paddlepaddle/blob/master/fig2.png)
+![image](https://github.com/duyongqi/rethinking_bottleneck_design_paddlepaddle/blob/master/fig2.jpg)
 
 ## 3. 准备数据与环境
 
