@@ -52,7 +52,9 @@ repo用到的数据集是imagenet数据集的验证集，具体参见：
 |                  |    环境(env)     |    精度（acc） | 延迟(latency)   |
 | ---------------  | --------------- | -------------- | -------------- |
 
-![image]()
+![image](https://github.com/duyongqi/rethinking_bottleneck_design_paddlepaddle/blob/master/fig1.png)
+![image](https://github.com/duyongqi/rethinking_bottleneck_design_paddlepaddle/blob/master/fig2.png)
+
 ## 3. 准备数据与环境
 
 ### 3.1 准备环境
