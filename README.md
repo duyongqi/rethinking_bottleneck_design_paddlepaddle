@@ -21,9 +21,7 @@
 - 论文: Daquan, Zhou, et al. "Rethinking Bottleneck Structure for Efficient Mobile Network Design." arXiv preprint arXiv:2007.02269 (2020). [[arXiv](https://arxiv.org/abs/2007.02269)]
 
 - 论文介绍：
- - 问题
- - 解决方案
- - 文章贡献
+ - 作者重新考虑了轻量化网络设计中逆残差网络的设计，考虑到其中的不合理，提出了一种新的sandglass模块，实验证明优于逆残差结构并且能够作为基础模型在结构搜索DARTS中取得进一步的性能提升和模型轻量化。
  
 - 参考repo: [rethinking_bottleneck_design](https://github.com/zhoudaquan/rethinking_bottleneck_design)
 
@@ -54,7 +52,7 @@ repo用到的数据集是imagenet数据集的验证集，具体参见：
 |                  |    环境(env)     |    精度（acc） | 延迟(latency)   |
 | ---------------  | --------------- | -------------- | -------------- |
 
-
+![image]()
 ## 3. 准备数据与环境
 
 ### 3.1 准备环境
@@ -86,9 +84,9 @@ pip install -r requirements.txt
 
 ### 3.3 准备模型
 
-- 预训练模型(paddle)：[BAIDUYUN](https://pan.baidu.com/s/1u-90N6kehZAyYBvM7QgQ8g): l5hu
-- 原repo提供的pytorch模型：[GENet_large](https://idstcv.oss-cn-zhangjiakou.aliyuncs.com/GENet/GENet_large.pth)、[GENet_normal](https://idstcv.oss-cn-zhangjiakou.aliyuncs.com/GENet/GENet_normal.pth)、[GENet_small](https://idstcv.oss-cn-zhangjiakou.aliyuncs.com/GENet/GENet_small.pth)
-- 模型转换：执行`python tools/gen_pretrained.py`
+- 预训练模型(paddle)：
+- 原repo提供的pytorch模型：
+- 模型转换：执行`
 
 ## 4. 开始使用
 
